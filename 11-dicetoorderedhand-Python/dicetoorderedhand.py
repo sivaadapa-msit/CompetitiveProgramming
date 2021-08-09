@@ -11,5 +11,12 @@
 
 
 def dicetoorderedhand(a, b, c):
+    largest= max(a,b,c)
+    smallest= min(a,b,c)
+    middle= (a+b+c)-largest-smallest
+    return largest*100+middle*10+smallest
 	# your code goes here
-	pass
+ 
+# def dicetoorderedhand(a, b, c): 
+# 	s=sorted((a,b,c),reverse=True)
+# 	return s[0]*100+s[1]*10+s[2]
