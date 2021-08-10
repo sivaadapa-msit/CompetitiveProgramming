@@ -1,0 +1,74 @@
+{
+    "playstep2.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Aug 10 2021 18:01:46",
+            "keyStrokeInfo": "",
+            "position": "37,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 37,
+            "keyStrokeTimeStamp": "Tue Aug 10 2021 19:03:18",
+            "keyStrokeInfo": "# your code goes here\r\n\thand = list(str(hand))\r\n\tdice = list(str(dice))\r\n\tif len(dice) > 1:\r\n\t\tif hand[0] == hand[1]:\r\n\t\t\thand[2] = dice[-1]\r\n\t\t\t# sorted(hand)\r\n\t\t\tdice = dice[:-1]\r\n\r\n\t\telif hand[1] == hand[2]:\r\n\t\t\thand[0] = dice[-1]\r\n\t\t\t# sorted(hand)\r\n\t\t\tdice = dice[:-1]\r\n\t\t\tprint(dice, 1)\r\n\r\n\t\telse:\r\n\t\t\t\r\n\t\t\tif hand[0] < dice[-1]:\r\n\t\t\t\thand[1] = hand[0]\r\n\t\t\t\thand[0] = dice[-1]\r\n\t\t\t\t# hand[1] = dice[-2]\r\n\t\t\t\thand[2] = dice[-2]\r\n\t\t\t\tdice = dice[:-2]\r\n\t\t\telse:\r\n\t\t\t\t# if len(dice) >= len(hand):\r\n\t\t\t\thand[1] = dice[-1]\r\n\t\t\t\thand[2] = dice[-2]\r\n\t\t\t\tdice = dice[:-2]\r\n\t\t\t\t\r\n\t# else:\r\n\t# \thand.sort(reverse=True)\r\n\t\t\t\t\t# print(hand.sort(reverse=True))\r\n\thand.sort(reverse=True)\r\n\thand = int(\"\".join(hand))\r\n\tdice = int(\"\".join(dice))\r\n\t# print(hand, dice)\r\n\treturn (hand, dice)",
+            "position": "37,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 10 2021 19:03:27",
+            "keyStrokeInfo": "",
+            "position": "68,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 10 2021 19:03:27",
+            "keyStrokeInfo": "",
+            "position": "68,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 10 2021 19:03:27",
+            "keyStrokeInfo": "",
+            "position": "68,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 10 2021 19:03:27",
+            "keyStrokeInfo": "",
+            "position": "68,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 10 2021 19:03:31",
+            "keyStrokeInfo": "",
+            "position": "57,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 10 2021 19:03:40",
+            "keyStrokeInfo": "\r\n ",
+            "position": "39,24"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Tue Aug 10 2021 19:04:07",
+            "keyStrokeInfo": "hand = str(hand)\r\n\t\r\n\tdice = str(dice)\r\n\t\r\n\r\n\t#print(hand,dice)\r\n\tif len(hand) == len(set(hand)):\r\n\t\tha=hand[0:1]+dice[-1:]+dice[-2:-1]\r\n\t\tdi=dice[0:2]\r\n\t\th=''.join(sorted(ha,reverse=True))\r\n\t\treturn (int(h),int(di))\r\n\telif len(hand) != len(set(hand)) and len(str(dice))<=2:\r\n\t\tha=hand[1:]+dice[-1:]\r\n\t\tdi=dice[0:1]\r\n\t\th=''.join(sorted(ha,reverse=True))\r\n\t\treturn (int(h),int(di))\r\n\telif len(hand) != len(set(hand)) and len(str(dice))>2:\r\n\t\tha=hand[1:]+dice[-1:]\r\n\t\tdi=dice[0:2]\r\n\t\th=''.join(sorted(ha,reverse=True))\r\n\t\treturn (int(h),int(di))",
+            "position": "38,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 10 2021 19:04:16",
+            "keyStrokeInfo": "\r\n",
+            "position": "48,26"
+        }
+    ]
+}
