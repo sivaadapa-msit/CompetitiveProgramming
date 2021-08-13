@@ -1,0 +1,39 @@
+{
+    "triangleareabycoordinates.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 13 2021 16:16:24",
+            "keyStrokeInfo": "",
+            "position": "9,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 13 2021 16:16:25",
+            "keyStrokeInfo": "",
+            "position": "9,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 13 2021 16:16:25",
+            "keyStrokeInfo": "",
+            "position": "9,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 13 2021 16:16:25",
+            "keyStrokeInfo": "",
+            "position": "9,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Fri Aug 13 2021 16:16:34",
+            "keyStrokeInfo": "area=0.5*( (x1*(y2-y3)) + (x2*(y3-y1)) + (x3*(y1-y2)) )\r\n\treturn area\r\n",
+            "position": "9,2"
+        }
+    ]
+}
