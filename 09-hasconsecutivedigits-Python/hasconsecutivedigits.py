@@ -3,5 +3,14 @@
 # number contains two consecutive digits that are the same, and False otherwise.
 
 def hasconsecutivedigits(n):
+	n=abs(n)
+	prev = -1
+	while(n>0):
+		one=n%10
+		n = n//10
+		if(prev == one):
+			return True
+		prev = one
+	return False
 	# your code goes here
-	pass
+ 
