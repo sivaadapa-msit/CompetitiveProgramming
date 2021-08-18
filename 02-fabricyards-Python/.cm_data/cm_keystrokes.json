@@ -1,0 +1,11 @@
+{
+    "fabricyards.py": [
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:09:11",
+            "keyStrokeInfo": "def fabricyards(inches):\r\n    if inches==0:\r\n        return 0\r\n    if inches%36==0:\r\n        return inches//36\r\n    else:\r\n        return (int(inches//36)+1)\r\n    \r\n\t# Your code goes here...\r\n\t\r\n\t\r\n\r\ndef fabricexcess(inches):\r\n    if (inches % 36 == 0):\r\n        extra=0\r\n    elif (inches > 36):\r\n        greater=(inches% 36)\r\n        extra=(36 - greater)\r\n    else:\r\n        extra=(36 - inches)\r\n    return extra ",
+            "position": "15,1"
+        }
+    ]
+}
