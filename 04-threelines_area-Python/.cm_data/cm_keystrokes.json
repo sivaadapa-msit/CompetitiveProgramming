@@ -1,0 +1,18 @@
+{
+    "threelines_area.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 20:34:47",
+            "keyStrokeInfo": "",
+            "position": "8,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 20:35:07",
+            "keyStrokeInfo": "perimeter = (a + b + c) / 2  \r\n\tarea = math.sqrt((perimeter*(perimeter-a)*(perimeter-b)*(perimeter-c)))\r\n\treturn int(area)\r\n",
+            "position": "8,2"
+        }
+    ]
+}
