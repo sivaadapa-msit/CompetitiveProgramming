@@ -1,0 +1,11 @@
+{
+    "find_int_roots.py": [
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 15:05:49",
+            "keyStrokeInfo": "import cmath \r\ndef fun_find_int_roots(a, b, c):\r\n    d=(b**2)-(4*a*c)\r\n    sol1=(-b-(cmath.sqrt(d)))/2*a\r\n    sol2=(-b+(cmath.sqrt(d)))/2*a\r\n    return sol1,sol2",
+            "position": "9,1"
+        }
+    ]
+}
