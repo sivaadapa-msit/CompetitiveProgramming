@@ -1,0 +1,11 @@
+{
+    "smallestdifference.py": [
+        {
+            "operation": "PASTE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:15:35",
+            "keyStrokeInfo": "def smallestdifference(a):\r\n    if(len(a)==0):\r\n        return -1\r\n    a.sort()\r\n    l=[]\r\n    dif=0\r\n    \r\n    for i in range(len(a)):\r\n        \r\n        for j in range(i+1,len(a)):\r\n            dif=abs(a[i]-a[j])\r\n            l.append(dif)        \r\n    # your code goes here\r\n    return min(l)",
+            "position": "7,1"
+        }
+    ]
+}
