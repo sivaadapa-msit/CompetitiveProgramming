@@ -9,4 +9,9 @@
 
 def numberofpoolballs(rows):
 	# Your code goes here
-	pass
+	l=list()
+	for i in range(rows+1):
+		if i<=rows:
+			l.append(i)
+			s=sum(l)
+	return s

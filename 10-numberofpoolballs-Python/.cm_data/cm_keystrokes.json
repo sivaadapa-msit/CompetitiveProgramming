@@ -1,0 +1,151 @@
+{
+    "numberofpoolballs.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:37:27",
+            "keyStrokeInfo": "",
+            "position": "12,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:37:35",
+            "keyStrokeInfo": " l=list()\r\n    for i in range(balls+1):\r\n        if i<=balls:\r\n            l.append(i)\r\n            s=sum(l)\r\n    return s",
+            "position": "12,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:07",
+            "keyStrokeInfo": "    ",
+            "position": "17,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:09",
+            "keyStrokeInfo": "\t",
+            "position": "17,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:22",
+            "keyStrokeInfo": "",
+            "position": "12,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:49",
+            "keyStrokeInfo": "",
+            "position": "13,21"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:49",
+            "keyStrokeInfo": "",
+            "position": "13,20"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:49",
+            "keyStrokeInfo": "",
+            "position": "13,19"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:49",
+            "keyStrokeInfo": "",
+            "position": "13,18"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:50",
+            "keyStrokeInfo": "",
+            "position": "13,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:50",
+            "keyStrokeInfo": "r",
+            "position": "13,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:51",
+            "keyStrokeInfo": "o",
+            "position": "13,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:52",
+            "keyStrokeInfo": "w",
+            "position": "13,19"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:52",
+            "keyStrokeInfo": "s",
+            "position": "13,20"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:56",
+            "keyStrokeInfo": "",
+            "position": "14,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:56",
+            "keyStrokeInfo": "",
+            "position": "14,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:56",
+            "keyStrokeInfo": "",
+            "position": "14,10"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:57",
+            "keyStrokeInfo": "",
+            "position": "14,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:57",
+            "keyStrokeInfo": "r",
+            "position": "14,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:57",
+            "keyStrokeInfo": "o",
+            "position": "14,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 14:38:58",
+            "keyStrokeInfo": "w",
+            "position": "14,11"
+        }
+    ]
+}
