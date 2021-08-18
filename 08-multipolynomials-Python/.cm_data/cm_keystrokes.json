@@ -1,0 +1,74 @@
+{
+    "multipolynomials.py": [
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 21:05:19",
+            "keyStrokeInfo": "def multiplyPolynomials(p1, p2):\r\n    len_a=len(p1)\r\n    len_b=len(p2)\r\n    result=[]\r\n    result_len=len_a+len_b-1\r\n    \r\n    for i in range(result_len):\r\n        result.append(0)\r\n        \r\n    for i in range(len_a):\r\n        for j in range(len_b):\r\n            result[i+j]+=p1[i]*p2[j]\r\n    return result\r\n",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 21:10:53",
+            "keyStrokeInfo": "  from multipolynomials import multipolynomials",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 21:11:14",
+            "keyStrokeInfo": "",
+            "position": "7,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 21:11:16",
+            "keyStrokeInfo": "\r\n",
+            "position": "20,18"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 21:11:17",
+            "keyStrokeInfo": "\r\n",
+            "position": "21,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 21:11:18",
+            "keyStrokeInfo": "p1=[2,0,3]\r\np2=[4,5]\r\nprint(multiplyPolynomials(p1,p2))\r\n",
+            "position": "22,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 21:11:40",
+            "keyStrokeInfo": "multiplyPolynomials\r\n",
+            "position": "24,7"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 21:11:43",
+            "keyStrokeInfo": "multiplyPolynomials",
+            "position": "24,7"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 21:12:03",
+            "keyStrokeInfo": "multipolynomials",
+            "position": "24,7"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Aug 18 2021 21:12:08",
+            "keyStrokeInfo": "multipolynomials",
+            "position": "8,5"
+        }
+    ]
+}
