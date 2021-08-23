@@ -1,0 +1,25 @@
+{
+    "ishappynumber.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 15:02:48",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "20,22"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 15:08:20",
+            "keyStrokeInfo": "if n<1:\r\n\t\treturn False\r\n\tsum = 0\r\n\twhile(n>0):\r\n\t\tsum+= (n % 10) * (n % 10)\r\n\t\tn = n//10\r\n\tif sum == 1:\r\n\t\treturn True \r\n\telif sum == 4:\r\n\t\treturn False\r\n\telse:\r\n\t\treturn ishappynumber(sum)",
+            "position": "22,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 15:08:20",
+            "keyStrokeInfo": "    ",
+            "position": "23,1"
+        }
+    ]
+}
