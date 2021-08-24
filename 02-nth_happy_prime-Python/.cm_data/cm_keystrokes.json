@@ -14,5 +14,14 @@
             "keyStrokeInfo": "def isprime(x):\r\n    count=0\r\n    if x>1:\r\n        for i in range(1,x+1):\r\n            if(x%i)==0:\r\n                count = count+1\r\n        if count == 2:\r\n            return True\r\n        else:\r\n            return False\r\n  \r\n#helper function to find the squares of digits\r\ndef numSquareSum(n):\r\n    squareSum = 0;\r\n    while(n>0):\r\n        squareSum += (n % 10) * (n % 10);\r\n        n = int(n / 10);\r\n    return squareSum\r\n\r\n# method return true if\r\n# n is Happy number\r\ndef ishappynumber(n):\r\n    # initialize slow\r\n    # and fast by n\r\n    slow = n;\r\n    fast = n;\r\n    while(True):\r\n\r\n        # move slow number\r\n        # by one iteration\r\n        slow = numSquareSum(slow);\r\n        # move fast number\r\n        # by two iteration\r\n        fast = numSquareSum(numSquareSum(fast));\r\n        if(slow != fast):\r\n            continue;\r\n        else:\r\n            break;\r\n\r\n    # if both number meet at 1,\r\n    # then return true\r\n    if (slow == 1):\r\n        return True\r\n    else:\r\n        return False\r\n\r\n#finding nth happy primes\r\n\r\ndef fun_nth_happy_prime(n):\r\n    found = 0\r\n    guess = 0\r\n    while (found <= n):\r\n        guess += 1\r\n        #print(guess)\r\n        if ((ishappynumber(guess)) and (isprime(guess))):\r\n            found += 1\r\n            #print(guess)\r\n    return guess",
             "position": "7,1"
         }
+    ],
+    "vowel.py": [
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:32:13",
+            "keyStrokeInfo": "def vowelCount(s):\r\n    count=0\r\n    \r\n    for i in range(len(s)):\r\n        if(\"a\"==s[i] or \"e\"==s[i] or \"i\"==s[i] or \"o\"==s[i] or \"u\"==s[i]):\r\n            count=count+1\r\n    return count\r\nprint(vowelCount(\"aercious\"))",
+            "position": "1,1"
+        }
     ]
 }
