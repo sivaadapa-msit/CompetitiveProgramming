@@ -22,6 +22,20 @@
             "keyStrokeTimeStamp": "Tue Aug 24 2021 14:32:13",
             "keyStrokeInfo": "def vowelCount(s):\r\n    count=0\r\n    \r\n    for i in range(len(s)):\r\n        if(\"a\"==s[i] or \"e\"==s[i] or \"i\"==s[i] or \"o\"==s[i] or \"u\"==s[i]):\r\n            count=count+1\r\n    return count\r\nprint(vowelCount(\"aercious\"))",
             "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:35:16",
+            "keyStrokeInfo": "\r\n",
+            "position": "8,30"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:35:16",
+            "keyStrokeInfo": "\r\n",
+            "position": "9,1"
         }
     ]
 }
