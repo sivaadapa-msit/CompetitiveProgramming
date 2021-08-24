@@ -1,0 +1,32 @@
+{
+    "interleave.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 23 2021 16:01:12",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "10,27"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:13:38",
+            "keyStrokeInfo": "    s=\"\"\r\n    if(len(s1)>len(s2)):\r\n        for i in range(len(s2)):\r\n            s+=s1[i]+s2[i]\r\n        s+=s1[len(s2):]\r\n    else:\r\n\t    for i in range(len(s1)):\r\n\t\t    s+=s1[i]+s2[i]\r\n\t    s+=s2[len(s1):]\r\n    return s",
+            "position": "11,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:13:40",
+            "keyStrokeInfo": "",
+            "position": "21,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 14:13:43",
+            "keyStrokeInfo": "",
+            "position": "11,5"
+        }
+    ]
+}
