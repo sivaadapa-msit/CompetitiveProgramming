@@ -7,5 +7,84 @@
             "keyStrokeInfo": "class Node(object):\r\n    def __init__(self, value):\r\n        self.value = value\r\n        self.left = None\r\n        self.right = None\r\n\r\nclass BinaryTree(object):\r\n    def __init__(self, root):\r\n        self.root = Node(root)\r\n\r\n    def search(self, find_val):\r\n        \"\"\"\r\n        Return True if the find_val is in the tree and False otherwise.\r\n        \"\"\"\r\n        # Your code goes here\r\n        return self.preorder_search(self.root,find_val)\r\n\r\n    def print_tree(self):\r\n        \"\"\"\r\n        Print out all tree nodes as they are visited in a pre-order traversal.\"\"\"\r\n        # Your code goes here\r\n        self.preorder_print(self.root)\r\n\r\n    def preorder_search(self, start, find_val):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive search solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        if start ==None:\r\n            return False\r\n        if start.value == find_val:\r\n            return True\r\n        return self.preorder_search(start.left,find_val) or self.preorder_search(start.right,find_val)\r\n\r\n\r\n    def preorder_print(self, start, traversal):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive print solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        if start is None:\r\n            return \r\n        print(start.value)\r\n        self.preorder-print(start.left)\r\n        self.preorder_print(start.right)",
             "position": "1,1"
         }
+    ],
+    "ispalindrome.py": [
+        {
+            "operation": "PASTE",
+            "lines": 22,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:40:16",
+            "keyStrokeInfo": "def isPrime(n):\r\n    if n>1:\r\n        for i in range(2,n):\r\n            if n%i==0:\r\n                return False\r\n        return True\r\ndef revNumber(n):\r\n    p=n\r\n    rn = 0\r\n    while(n!=0):\r\n        rm = n%10\r\n        rn = rn*10 + rm\r\n        n = n//10\r\n    return (rn==p)\r\n\r\ndef isPalindromePrime(n):\r\n    if (isPrime(n)==True) and (revNumber(n)==True):\r\n        return True\r\n    return False\r\n\r\n\r\nprint(isPalindromePrime(131))",
+            "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:40:29",
+            "keyStrokeInfo": "\r\n",
+            "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:40:31",
+            "keyStrokeInfo": "\r\n",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:40:33",
+            "keyStrokeInfo": "isPalindromicPrime() Write a function isPalindromicPrime that takes a value n as a parameter and returns True if the given n is a palindrome and prime and False otherwise.\r\nassert (isPalindromicPrime(2) == True)\r\nassert (isPalindromicPrime(10) == False)\r\nassert (isPalindromicPrime(104) == False)\r\nassert (isPalindromicPrime(235) == False)\r\nassert (isPalindromicPrime(131) == True)\r\nassert (isPalindromicPrime(900) == False)\r\nassert (isPalindromicPrime(101) == True)\r\nassert (isPalindromicPrime(383) == True)\r\nassert (isPalindromicPrime(373) == True)\r\nassert (isPalindromicPrime(121) == False)\r\nprint(\"All test cases passed... :-)\")",
+            "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:40:40",
+            "keyStrokeInfo": "?",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:40:41",
+            "keyStrokeInfo": "",
+            "position": "1,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:40:44",
+            "keyStrokeInfo": "?",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:40:45",
+            "keyStrokeInfo": "isPalindromicPrime() Write a function isPalindromicPrime that takes a value n as a parameter and returns True if the given n is a palindrome and prime and False otherwise.\r\nassert (isPalindromicPrime(2) == True)\r\nassert (isPalindromicPrime(10) == False)\r\nassert (isPalindromicPrime(104) == False)\r\nassert (isPalindromicPrime(235) == False)\r\nassert (isPalindromicPrime(131) == True)\r\nassert (isPalindromicPrime(900) == False)\r\nassert (isPalindromicPrime(101) == True)\r\nassert (isPalindromicPrime(383) == True)\r\nassert (isPalindromicPrime(373) == True)\r\nassert (isPalindromicPrime(121) == False)\r\nprint(\"All test cases passed... :-)\")\r\n",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:40:47",
+            "keyStrokeInfo": "# ",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:40:58",
+            "keyStrokeInfo": "\r\n# ",
+            "position": "1,113"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:41:46",
+            "keyStrokeInfo": "1",
+            "position": "36,27"
+        }
     ]
 }
