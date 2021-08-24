@@ -1,0 +1,11 @@
+{
+    "binarysearch.py": [
+        {
+            "operation": "PASTE",
+            "lines": 20,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 15:24:13",
+            "keyStrokeInfo": "def binary_search(input_array, value): \r\n    # Your code goes here\r\n\r\n    input_array.sort()\r\n    low= 0\r\n    high = len(input_array) - 1\r\n   \r\n    while low<= high:\r\n        mid = (low+high ) // 2\r\n       \r\n        if input_array[mid]== value:\r\n            return mid\r\n\r\n        elif value < input_array[mid]:\r\n            high = mid - 1\r\n\r\n        else:\r\n            low= mid + 1\r\n\r\n    return -1",
+            "position": "13,1"
+        }
+    ]
+}
