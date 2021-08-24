@@ -1,0 +1,39 @@
+{
+    "median.py": [
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:43:06",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:43:44",
+            "keyStrokeInfo": " n = len(a)\r\n    a.sort()\r\n   \r\n    if len(a)==0:\r\n        \r\n        return None\r\n    if n % 2 == 0:\r\n        median1 = a[n//2]\r\n        median2 = a[n//2 - 1]\r\n        median = (median1 + median2)/2\r\n        return median \r\n    else:\r\n        median = a[n//2]\r\n        return median ",
+            "position": "8,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:43:48",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:44:10",
+            "keyStrokeInfo": "    ",
+            "position": "21,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Aug 24 2021 20:44:12",
+            "keyStrokeInfo": "\t",
+            "position": "21,1"
+        }
+    ]
+}
