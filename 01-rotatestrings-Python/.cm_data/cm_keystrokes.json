@@ -1,0 +1,25 @@
+{
+    "rotatestrings.py": [
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 16:43:01",
+            "keyStrokeInfo": "n=n%len(s)\r\n    rotated= s[n:] + s[:n]\r\n    return rotated",
+            "position": "10,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 16:43:19",
+            "keyStrokeInfo": "    ",
+            "position": "12,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 16:43:22",
+            "keyStrokeInfo": "\t",
+            "position": "10,1"
+        }
+    ]
+}
