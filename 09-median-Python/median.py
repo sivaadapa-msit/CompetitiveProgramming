@@ -9,7 +9,6 @@ def median(a):
 	a.sort()
    
 	if len(a)==0:
-		
 		return None
 	if n % 2 == 0:
 		median1 = a[n//2]

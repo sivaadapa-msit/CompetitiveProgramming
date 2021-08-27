@@ -34,6 +34,27 @@
             "keyStrokeTimeStamp": "Tue Aug 24 2021 20:44:12",
             "keyStrokeInfo": "\t",
             "position": "21,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 11:28:35",
+            "keyStrokeInfo": "",
+            "position": "12,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 11:28:36",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 11:28:36",
+            "keyStrokeInfo": "",
+            "position": "11,15"
         }
     ]
 }
