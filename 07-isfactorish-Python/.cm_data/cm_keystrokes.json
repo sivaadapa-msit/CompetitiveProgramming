@@ -1,0 +1,11 @@
+{
+    "isfactorish.py": [
+        {
+            "operation": "PASTE",
+            "lines": 31,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:11:44",
+            "keyStrokeInfo": "def noofDigits(n):\r\n    c = 0\r\n    while(n > 0):\r\n        n = n//10\r\n        c = c+1\r\n    return c\r\n\r\n\r\ndef fun_isfactorish(n):\r\n    \r\n    if (n < 0):\r\n        n = abs(n)\r\n\t\r\n    if(noofDigits(n) != 3 ):\r\n        return False\r\n    else:\r\n        d1 = n % 10\r\n        n = n // 10\r\n        d2 = n % 10\r\n        n = n // 10\r\n        d3 = n % 10\r\n\r\n        if(d1 == 0 or d2 == 0 and d3 == 0):\r\n            return(False)\r\n\r\n        if(d1 == d2 or d2 == d3 or d3 == d1):\r\n            return(False)\r\n\r\n        if (n%d1 == 0 and n%d2 == 0 or n%d3 == 0):\r\n            \r\n            return True",
+            "position": "14,1"
+        }
+    ]
+}
