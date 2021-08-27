@@ -1,0 +1,11 @@
+{
+    "nth_carolprime.py": [
+        {
+            "operation": "PASTE",
+            "lines": 18,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:08:12",
+            "keyStrokeInfo": "def isPrime(n):\r\n    if(n < 2):\r\n        return False\r\n    for i in range(2,n):\r\n        if(n % i == 0):\r\n            return False\r\n    return True\r\n\r\ndef fun_nth_carolprime(n):\r\n    num = 2\r\n    count = 0\r\n    res = -1\r\n    while(count <= n):\r\n        res = ((2*num - 1)*2 - 2)\r\n        if(isPrime(res)):\r\n            count = count + 1\r\n        num = num + 1\r\n    return res",
+            "position": "12,1"
+        }
+    ]
+}
