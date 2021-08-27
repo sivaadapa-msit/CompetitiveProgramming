@@ -1,0 +1,144 @@
+{
+    "isrotation.py": [
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:24:22",
+            "keyStrokeInfo": "# your code goes here\r\n    # if len(x)==len(y):\r\n    #     res=x[2:]+x[0:2]\r\n    #     return (res==y)\r\n    # if x==y:\r\n    #     return True",
+            "position": "9,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:24:29",
+            "keyStrokeInfo": "?",
+            "position": "10,3"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:24:31",
+            "keyStrokeInfo": "  # if len(x)==len(y):\r\n    #     res=x[2:]+x[0:2]\r\n    #     return (res==y)\r\n    # if x==y:\r\n    #     return True",
+            "position": "10,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:24:33",
+            "keyStrokeInfo": "/",
+            "position": "10,3"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:24:36",
+            "keyStrokeInfo": "  # if len(x)==len(y):\r\n    #     res=x[2:]+x[0:2]\r\n    #     return (res==y)\r\n    # if x==y:\r\n    #     return True",
+            "position": "10,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:24:38",
+            "keyStrokeInfo": "?",
+            "position": "10,3"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:24:43",
+            "keyStrokeInfo": "  # if len(x)==len(y):\r\n    #     res=x[2:]+x[0:2]\r\n    #     return (res==y)\r\n    # if x==y:\r\n    #     return True",
+            "position": "10,3"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:24:52",
+            "keyStrokeInfo": "/",
+            "position": "10,3"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:24:55",
+            "keyStrokeInfo": "  # if len(x)==len(y):\r\n    #     res=x[2:]+x[0:2]\r\n    #     return (res==y)\r\n    # if x==y:\r\n    #     return True",
+            "position": "10,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:24:58",
+            "keyStrokeInfo": "",
+            "position": "14,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:25:01",
+            "keyStrokeInfo": "",
+            "position": "13,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:25:03",
+            "keyStrokeInfo": "",
+            "position": "12,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:25:05",
+            "keyStrokeInfo": "",
+            "position": "11,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:25:08",
+            "keyStrokeInfo": "",
+            "position": "10,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:25:11",
+            "keyStrokeInfo": "",
+            "position": "10,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:25:14",
+            "keyStrokeInfo": "",
+            "position": "13,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:25:18",
+            "keyStrokeInfo": "",
+            "position": "11,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:25:21",
+            "keyStrokeInfo": "",
+            "position": "12,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:25:23",
+            "keyStrokeInfo": "",
+            "position": "14,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 15:26:30",
+            "keyStrokeInfo": "def isrotation(x, y):\r\n    s=str(x)\r\n    r=str(y)\r\n    rev=r[::-1]\r\n    if s==r:\r\n        return True\r\n    else:\r\n        \r\n        if len(s)==len(r):\r\n            res=s[len(s)-2:]+s[0:len(s)-2]\r\n            \r\n            if res==r:\r\n                return True\r\n            elif s==rev:\r\n                return True\r\n            else:\r\n                return False      \r\n        else:\r\n            return False",
+            "position": "8,1"
+        }
+    ]
+}
