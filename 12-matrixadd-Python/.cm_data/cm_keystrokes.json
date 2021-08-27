@@ -1,0 +1,32 @@
+{
+    "matrixadd.py": [
+        {
+            "operation": "PASTE",
+            "lines": 26,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 11:35:37",
+            "keyStrokeInfo": "  if (len(L[0])!=len(M[0])):\r\n        return None\r\n    for i in range(len(L)):\r\n        for j in range(1,len(L)):\r\n            if(len(L[i])!=len(L[j])):\r\n                return None\r\n    for i in range(len(M)):\r\n        for j in range(1,len(M)):\r\n            if(len(M[i])!=len(M[j])):\r\n                return None\r\n    arr=[]\r\n    for i in range(0,len(L)):\r\n        #print (arr)\r\n        arr.append([])\r\n        #print\r\n    for i in range (0,len(L)):#0\r\n        for j in range (0,len(L[0])):\r\n            arr[i].append(j)\r\n            #print(arr)\r\n            #print(arr)           \r\n            arr[i][j]=0\r\n    #print(arr)\r\n    for i in range(len(L)):\r\n        for j in range(len(L[i])):\r\n            arr[i][j]+=L[i][j]+M[i][j]\r\n    return arr",
+            "position": "20,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 11:49:41",
+            "keyStrokeInfo": "",
+            "position": "20,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 11:49:53",
+            "keyStrokeInfo": "    ",
+            "position": "45,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 11:49:56",
+            "keyStrokeInfo": "\t",
+            "position": "45,1"
+        }
+    ]
+}
