@@ -1,0 +1,32 @@
+{
+    "nth_fibonacci.py": [
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 14:40:41",
+            "keyStrokeInfo": "  n1 = 1\r\n    n2 = 1\r\n    if n == 0:\r\n        return n2\r\n    else:\r\n        for i in range(0,n-1):\r\n            sum = n1 + n2\r\n            n1 = n2\r\n            n2 = sum\r\n    return n2",
+            "position": "11,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 14:40:44",
+            "keyStrokeInfo": "",
+            "position": "11,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 14:41:04",
+            "keyStrokeInfo": "    ",
+            "position": "20,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Sat Aug 28 2021 14:41:06",
+            "keyStrokeInfo": "\t",
+            "position": "20,1"
+        }
+    ]
+}
