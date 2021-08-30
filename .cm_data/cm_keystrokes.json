@@ -1,0 +1,25 @@
+{
+    "areAnagrams.py": [
+        {
+            "operation": "PASTE",
+            "lines": 29,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 21:13:11",
+            "keyStrokeInfo": "def areAnagrams(s1, s2):\r\n    s2=s2.lower()\r\n    s1=s1.lower()\r\n    liststr=list(s1)\r\n    liststr2=list(s2)\r\n    \r\n    if len(liststr) != len(liststr2):\r\n        return False\r\n    else:\r\n    \r\n        for i in range(0,len(liststr)-1):\r\n            if liststr[i]>liststr[i+1]:\r\n                liststr[i],liststr[i+1]=liststr[i+1],liststr[i] \r\n\r\n    \r\n        for j in range(0,len(liststr)-1):\r\n            if liststr2[j]>liststr2[j+1]:\r\n                liststr2[j],liststr2[j+1]=liststr2[j+1],liststr2[j] \r\n  \r\n    \r\n        if liststr==liststr2:\r\n            return True\r\n        else:\r\n            return False\r\n    \r\n   \r\n \r\n    \r\nprint(areAnagrams(\"aba\",\"BAA\"))",
+            "position": "13,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 21:13:51",
+            "keyStrokeInfo": "    ",
+            "position": "40,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 21:13:53",
+            "keyStrokeInfo": "\t",
+            "position": "40,1"
+        }
+    ]
+}
