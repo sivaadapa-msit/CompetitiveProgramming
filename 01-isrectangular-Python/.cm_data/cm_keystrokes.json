@@ -1,0 +1,25 @@
+{
+    "isrectangular.py": [
+        {
+            "operation": "PASTE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 15:54:06",
+            "keyStrokeInfo": "  for i in range(len(l)-1):\r\n        if(len(l[i])!=len(l[i+1])):\r\n        \treturn False\r\n    return True",
+            "position": "8,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 15:54:08",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 15:54:46",
+            "keyStrokeInfo": "    ",
+            "position": "11,1"
+        }
+    ]
+}
