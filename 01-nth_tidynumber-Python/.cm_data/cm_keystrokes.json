@@ -1,0 +1,18 @@
+{
+    "nth_tidynumber.py": [
+        {
+            "operation": "PASTE",
+            "lines": 18,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 20:26:15",
+            "keyStrokeInfo": "def  tidy(num):\r\n    pr=10\r\n    c=num\r\n    while(num):\r\n        rm=num%10\r\n        num//=10\r\n        if rm >pr:\r\n            return False\r\n        pr=rm\r\n    return True\r\ndef fun_nth_tidynumber(n):\r\n    f=0\r\n    g=0\r\n    while f<=n:\r\n        g=g+1\r\n        if(tidy(g)):\r\n            f=f+1\r\n    return g",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 20:26:32",
+            "keyStrokeInfo": "    ",
+            "position": "26,1"
+        }
+    ]
+}
