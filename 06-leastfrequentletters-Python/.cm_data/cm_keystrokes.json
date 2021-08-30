@@ -1,0 +1,25 @@
+{
+    "leastfrequentletters.py": [
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 20:43:20",
+            "keyStrokeInfo": "\r\ndef leastfrequentletters(s):\r\n    k=s.lower()\r\n    h=\"\"\r\n    p=\"\"\r\n    for i in k:\r\n        if (i.isalnum()):\r\n            h=h+i\r\n    \r\n    for j in h:\r\n        if (h.count(j)==1):\r\n            p=p+j\r\n    \r\n    return (\"\".join(sorted(p)))",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 20:56:23",
+            "keyStrokeInfo": "    ",
+            "position": "23,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 20:56:25",
+            "keyStrokeInfo": "\t",
+            "position": "23,1"
+        }
+    ]
+}
