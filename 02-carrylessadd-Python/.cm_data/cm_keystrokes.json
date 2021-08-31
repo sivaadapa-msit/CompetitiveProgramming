@@ -1,0 +1,11 @@
+{
+    "carrylessadd.py": [
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Tue Aug 31 2021 14:42:10",
+            "keyStrokeInfo": "def fun_carrylessadd(x, y):\r\n    sol=0\r\n    p= 1\r\n    tot=0\r\n    while(x or y):\r\n        tot=((x%10)+(y%10))\r\n        tot=tot%10\r\n        sol=(tot*p)+sol\r\n        x=x//10\r\n        y=y//10\r\n        p=p*10\r\n    return sol",
+            "position": "8,1"
+        }
+    ]
+}
