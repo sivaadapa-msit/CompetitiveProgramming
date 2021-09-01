@@ -1,0 +1,11 @@
+{
+    "samechars.py": [
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Wed Sep 01 2021 20:06:55",
+            "keyStrokeInfo": "def samechars(s1, s2):\r\n    s1=str(s1)\r\n    s2=str(s2)\r\n    # if s1==s2:\r\n    \r\n    for i in range(len(s2)):\r\n        if s2[i] in s1:\r\n            continue\r\n        else:\r\n            return False\r\n    return True\r\n  \r\n    # return False\r\n    ",
+            "position": "8,1"
+        }
+    ]
+}
