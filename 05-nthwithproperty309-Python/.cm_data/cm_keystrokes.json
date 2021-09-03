@@ -1,0 +1,46 @@
+{
+    "nthwithproperty309.py": [
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Fri Sep 03 2021 11:29:52",
+            "keyStrokeInfo": "def nthwithproperty309(n):\r\n   # Your code goes here\r\n   if(n == 0):\r\n       return 309\r\n   x = 1\r\n   y = 310\r\n   while(x<=n):\r\n       y+=1\r\n       if(withproperty(y)):\r\n           x+=1\r\n   return y\r\n \r\ndef withproperty(n):\r\n   power5 = str(n**5)\r\n   a = ['0','1','2','3','4','5','6','7','8','9']\r\n   for i in a:\r\n       if(i not in power5):\r\n           return False\r\n   return True",
+            "position": "7,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Sep 03 2021 11:29:52",
+            "keyStrokeInfo": "    ",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Sep 03 2021 11:32:10",
+            "keyStrokeInfo": "",
+            "position": "20,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Sep 03 2021 11:32:11",
+            "keyStrokeInfo": "",
+            "position": "23,25"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Sep 03 2021 11:32:20",
+            "keyStrokeInfo": "5",
+            "position": "23,25"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Sep 03 2021 11:32:22",
+            "keyStrokeInfo": "5",
+            "position": "20,9"
+        }
+    ]
+}
