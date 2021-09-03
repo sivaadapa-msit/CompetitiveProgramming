@@ -1,0 +1,11 @@
+{
+    "movie_awards.py": [
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Fri Sep 03 2021 11:24:02",
+            "keyStrokeInfo": "def movie_awards(oscarResults):\r\n    # Your code goes here...\r\n    d={}\r\n    for i in oscarResults:\r\n        if i[1] not in d:\r\n            d[i[1]]=1\r\n        else:\r\n            d[i[1]]+=1\r\n    return d",
+            "position": "19,1"
+        }
+    ]
+}
