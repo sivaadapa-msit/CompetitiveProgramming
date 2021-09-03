@@ -1,0 +1,11 @@
+{
+    "longestdigitrun.py": [
+        {
+            "operation": "PASTE",
+            "lines": 29,
+            "keyStrokeTimeStamp": "Fri Sep 03 2021 11:51:30",
+            "keyStrokeInfo": "def longestDigitRun(n):\r\n    n=abs(n)\r\n    longestRun=1\r\n    longestRunDigit=n%10\r\n    currentRun=1\r\n    index=n\r\n    counter=0\r\n    while(index!=0):\r\n        index//=10\r\n        counter+=1\r\n    if (counter==1):\r\n        return 1\r\n    for j in range(0,counter):\r\n        temp1=n%10\r\n        n=n//10\r\n        temp2=n%10\r\n        if (temp1==temp2):\r\n            currentRun+=1\r\n        elif(currentRun>longestRun):              \r\n            longestRun=currentRun\r\n            longestRunDigit=temp1\r\n            currentRun=1\r\n        elif(currentRun==longestRun and temp1<longestRunDigit):\r\n            longestRunDigit=temp1\r\n            currentRun=1\r\n        else:\r\n            currentRun=1;\r\n    return longestRunDigit\r\nprint(longestDigitRun(int(input())))",
+            "position": "7,1"
+        }
+    ]
+}
