@@ -1,0 +1,11 @@
+{
+    "quiz.py": [
+        {
+            "operation": "PASTE",
+            "lines": 38,
+            "keyStrokeTimeStamp": "Sat Sep 04 2021 15:39:40",
+            "keyStrokeInfo": "def bestQuiz(l):\r\n    # Your  code goes here...\r\n      res = []\r\n      for i in range(len(l[0])):\r\n            average = 0\r\n            count = 0\r\n            for j in range(len(l)):\r\n                  if l[j][i]!= -1:\r\n                        average += l[j][i]\r\n                        count+=1\r\n            # print(average/2)\r\n            if count!= 0:\r\n                  res.append(average/count)\r\n      \r\n      # print(res.index(max(res)))\r\n      if len(res) < 1:\r\n            return None\r\n      \r\n      return res.index(max(res))\r\n\r\nprint(bestQuiz( [[ 88,  80, 91 ],\r\n          [ 68, 100, -1 ]]))\r\n   \r\ndef testBestQuiz():\r\n    print('Testing bestQuiz()...', end='')\r\n    a = [ [ 88,  80, 91 ],\r\n          [ 68, 100, -1 ]]\r\n    assert(bestQuiz(a) == 2)\r\n    a = [ [ 88,  80, 80 ],\r\n          [ 68, 100, 100 ]]\r\n    assert(bestQuiz(a) == 1)\r\n    a = [ [88, -1, -1 ],\r\n          [68, -1, -1 ]]\r\n    assert(bestQuiz(a) == 0)\r\n    a = [ [-1, -1, -1 ],\r\n          [-1, -1, -1 ]]\r\n    assert(bestQuiz(a) == None)\r\n    print('All test cases passed...!')",
+            "position": "7,1"
+        }
+    ]
+}
