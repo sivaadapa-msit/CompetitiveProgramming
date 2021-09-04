@@ -6,6 +6,13 @@
             "keyStrokeTimeStamp": "Fri Sep 03 2021 11:24:02",
             "keyStrokeInfo": "def movie_awards(oscarResults):\r\n    # Your code goes here...\r\n    d={}\r\n    for i in oscarResults:\r\n        if i[1] not in d:\r\n            d[i[1]]=1\r\n        else:\r\n            d[i[1]]+=1\r\n    return d",
             "position": "19,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Sat Sep 04 2021 15:42:41",
+            "keyStrokeInfo": "def movieAwards(oscarResults):\r\n    d={}\r\n    for  i in oscarResults:\r\n        if i[1] in d:\r\n            d[i[1]]  +=1\r\n        else:\r\n            d[i[1]] = 1\r\n    return d\r\nprint(movieAwards({ \r\n    (\"Best Picture\", \"The Shape of Water\"), \r\n    (\"Best Actor\", \"Darkest Hour\"),\r\n    (\"Best Actress\", \"Three Billboards Outside Ebbing, Missouri\"),\r\n    (\"Best Director\", \"The Shape of Water\"),\r\n    (\"Best Supporting Actor\", \"Three Billboards Outside Ebbing, Missouri\"),\r\n    (\"Best Supporting Actress\", \"I, Tonya\"),\r\n    (\"Best Original Score\", \"The Shape of Water\")\r\n}))",
+            "position": "19,1"
         }
     ]
 }
