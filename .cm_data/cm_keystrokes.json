@@ -1,0 +1,18 @@
+{
+    "collapseWhitespace.py": [
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Sat Sep 04 2021 15:40:53",
+            "keyStrokeInfo": "def cw(s):\r\n    # Your code goes here...\r\n    return \"\"\r\n\r\nassert(cw(\"a\\nb\") == \"a b\")\r\nassert(cw(\"a\\n   \\t    b\") == \"a b\")\r\nassert(cw(\"a\\n   \\t    b  \\n\\n  \\t\\t\\t c   \") == \"a b c \")\r\nprint (\"All test cases passed...\")",
+            "position": "17,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Sat Sep 04 2021 15:41:02",
+            "keyStrokeInfo": "\r\ndef cw(s):\r\n    # Your code goes here...\r\n    return \" \".join(s.split())\r\nprint(cw(\"a\\nb\"))\r\nprint(cw(\"a\\n   \\t    b\"))\r\nassert(cw(\"a\\nb\") == \"a b\")\r\nassert(cw(\"a\\n   \\t    b\") == \"a b\")\r\nassert(cw(\"a\\n   \\t    b  \\n\\n  \\t\\t\\t c   \") == \"a b c \")\r\nprint (\"All test cases passed...\")",
+            "position": "17,1"
+        }
+    ]
+}
